@@ -1,0 +1,26 @@
+$TTL    604800
+@       IN      SOA     ocp-services.mts-ocp.lan. contact.mts-ocp.lan (
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Minimum
+)
+
+  IN      NS      ocp-services.mts-ocp.lan.
+
+1      IN    PTR    ocp-services.mts-ocp.lan.
+1      IN    PTR    api.mts-ocp.lan.
+1      IN    PTR    api-int.mts-ocp.lan.
+;
+200    IN    PTR    ocp-bootstrap.mts-ocp.lan.
+;
+201    IN    PTR    ocp-cp01.mts-ocp.lan.
+202    IN    PTR    ocp-cp02.mts-ocp.lan.
+203    IN    PTR    ocp-cp03.mts-ocp.lan.
+;
+211    IN    PTR    ocp-worker01.mts-ocp.lan.
+212    IN    PTR    ocp-worker02.mts-ocp.lan.
+213    IN    PTR    ocp-worker03.mts-ocp.lan.
+214    IN    PTR    ocp-worker04.mts-ocp.lan.
+215    IN    PTR    ocp-worker05.mts-ocp.lan.
